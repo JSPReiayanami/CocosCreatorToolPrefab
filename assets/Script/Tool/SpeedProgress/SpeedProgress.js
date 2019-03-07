@@ -18,10 +18,10 @@ cc.Class({
             }
         },
         m_Run:false,
-        m_Items:cc.Object(),
     },
     onLoad () {
         this.m_TestTime = 0;
+        this.m_Items = {};
     },
 
     start () {
@@ -44,15 +44,16 @@ cc.Class({
     },
     AddItem(data)
     {
-        if(data == null || data.Id == null || data.Speed) return;
+        if(data == null || data.Id == null || data.Speed == null) return;
         this.RemoveItem(data);
 
         var nodeItem = cc.instantiate(this.m_PrefabItem);
-        var jsc = nodeItem.getComept("SpeedProgressItem");
+        var jsc = nodeItem.getComponent("SpeedProgressItem");
         var startPos = new cc.Vec2( this.m_SpBarBgSize.x/2, -this.m_SpBarBgSize.y/2 )
         var endPos = new cc.Vec2( this.m_SpBarBgSize.x/2, this.m_SpBarBgSize.y/2 )
         jsc.SetProgressPath(startPos,endPos);
         jsc.SetPercent(0,false);
+        jsc.SetSpeed(data.Speed);
         this.node.addChild(nodeItem);
         this.m_Items[data.Id] = jsc;
     },

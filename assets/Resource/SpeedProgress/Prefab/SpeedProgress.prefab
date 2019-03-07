@@ -50,8 +50,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -378,
+      "y": -2,
       "z": 0
     },
     "_scale": {
@@ -185,7 +185,9 @@
       "__id__": 1
     },
     "_enabled": true,
-    "m_PrefabItem": null,
+    "m_PrefabItem": {
+      "__uuid__": "9abf958d-84f0-4c3f-9b33-ea4f0bacd566"
+    },
     "m_Run": false,
     "_N$m_SpBarBg": {
       "__id__": 3
