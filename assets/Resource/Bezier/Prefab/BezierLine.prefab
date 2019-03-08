@@ -92,9 +92,14 @@
       "x": 500,
       "y": 300
     },
-    "m_PointC": {
+    "m_PointC1": {
       "__type__": "cc.Vec2",
-      "x": 350,
+      "x": 300,
+      "y": 300
+    },
+    "m_PointC2": {
+      "__type__": "cc.Vec2",
+      "x": 400,
       "y": 300
     },
     "m_PointPerfab": {
