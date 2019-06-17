@@ -18,6 +18,7 @@ cc.Class({
             }
         },
         m_Run:false,
+        m_CallBack:null,
     },
     onLoad () {
         this.m_TestTime = 0;
@@ -107,6 +108,18 @@ cc.Class({
         {
             this.RemoveItem(id);
             break;
+        }
+    },
+    BindCallBack( callback )
+    {
+        this.m_CallBack = callback;
+    }
+    ,
+    CallRunEnd(item)
+    {
+        if(this.m_CallBack)
+        {
+            this.m_CallBack(item)
         }
     }
 });

@@ -1,4 +1,4 @@
-var BezierUtil = require('./BezierUtil');
+var BezierUtil = require('BezierUtil');
 cc.Class({
     extends: cc.Component,
 
@@ -49,7 +49,6 @@ cc.Class({
         this.PrintLine();
     }
     ,
-
     start () {
 
     },
