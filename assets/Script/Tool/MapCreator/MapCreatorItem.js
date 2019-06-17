@@ -12,21 +12,9 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        m_LabLogicId:cc.Label,
+        m_LabLastId:cc.Label,
+        m_LabNextId:cc.Label,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,4 +26,15 @@ cc.Class({
     },
 
     // update (dt) {},
+    SetData(data){
+        this.m_Data = data
+        this.RefreshView()
+    },
+    RefreshView(){
+        if(this.m_Data != null){
+            this.m_LabLogicId.string = "Lgic:"+(this.m_Data.LogicId || 'null')
+            this.m_LabLastId.string = "Last:"+(this.m_Data.LogicId || 'null')
+            this.m_LabNextId.string = "Next:"+(this.m_Data.LogicId || 'null')
+        }
+    }
 });
