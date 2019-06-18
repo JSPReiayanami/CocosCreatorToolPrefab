@@ -61,7 +61,7 @@ cc.Class({
     for (let index in layNameArr) {
       this.m_LayNode.getChildByName(layNameArr[index]).active = true
     }
-    this.m_LabNewLogicId.string = this.m_MapLogic.GetLogicNewLogicId()
+    this.m_LabNewLogicId.string = "下一个逻辑Id:"+this.m_MapLogic.GetLogicNewLogicId()
     this.CheckEdtIsRight()
   },
   ClickOk() {
@@ -85,6 +85,7 @@ cc.Class({
     data.NextId = this.StringCovertoInt(this.m_EDTNextId.string)
     data.DelId = this.StringCovertoInt(this.m_EDTDelId.string)
     this.m_MapLogic.OpItem(data)
+    this.RefreshView()
   },
   CheckIsNaN(edtString) {
     if (edtString != null && edtString != "") {

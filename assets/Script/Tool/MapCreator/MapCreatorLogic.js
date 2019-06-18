@@ -1,3 +1,4 @@
+
 let ViewType = {
   View: 1,
   Op: 2,
@@ -7,6 +8,7 @@ cc.Class({
 
   properties: {
     m_Content: cc.Node,
+    m_ContentH:cc.Node,
     m_OpView: require('MapCreatorOpView'),
     m_PrefabItemList:cc.Prefab,
   },
@@ -28,7 +30,7 @@ cc.Class({
   start() {
     this.HideOpView()
     //添加一个常驻的itemlist放没有去向的节点，只有来向的
-    this.AddItemList(0)
+    this.AddItemList({LogicId:0})
   },
 
   // update (dt) {},
@@ -81,8 +83,17 @@ cc.Class({
     data.LogicId = this.GetLogicNewLogicId()
     data.ToMeIds = {}
     this.ChangeLogicId()
+    let lastItemData = this.GetDataWithLogicId(data.LastId)
+    if(lastItemData != null){
+      lastItemData.ToMeIds[data.LogicId] = 1
+    }
+    let nextItemData = this.GetDataWithLogicId(data.NextId)
+    if(nextItemData != null){
+      nextItemData.ToMeIds[data.LogicId] = 1
+    }
     this.m_LogicData[ data.LogicId ] = data
-    this.AddItemToList(data)
+    this.RefreshItemListView()
+
   },
   DelItem(data){
     if(data == null) return
@@ -98,7 +109,8 @@ cc.Class({
         this.RemoveLastId(logicId)
       }
     }
-    this.DelItemFromAllItemList(data)
+    //this.DelItemFromAllItemList(data)
+    this.RefreshItemListView()
     delete this.m_LogicData[data.LogicId]
   },
   FixItem(data){
@@ -106,6 +118,16 @@ cc.Class({
   },
   GetDataWithLogicId(id){
     if(id == null) return
+    if(id == 0){
+      let data = {}
+      data.ToMeIds = {}
+      for(let logicId in this.m_LogicData){
+        if(this.m_LogicData[logicId].LastId == null && this.m_LogicData[logicId].NextId == null){
+          data.ToMeIds[logicId] = 1
+        }
+      }
+      return data
+    }
     return this.m_LogicData[id]
   },
   RemoveToMeId(targetId,id){
@@ -169,16 +191,55 @@ cc.Class({
       }
     }
   },
-  AddItemList(logicId){
+  AddItemList(data){
+    let logicId = data.LogicId
+    if(logicId == null) return  null
     if(this.m_ItemLists[ logicId ] == null) {
       let itemList = cc.instantiate(this.m_PrefabItemList)
       this.m_Content.addChild( itemList )
+      this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.NONE
+      this.m_ContentH.stopAllActions()
+      this.m_ContentH.runAction(cc.sequence(
+        cc.delayTime(1/30),
+        cc.callFunc(()=>{
+          this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.CONTAINER
+        })
+      ))
       this.m_ItemLists[ logicId ] = itemList.getComponent( 'MapCreatorItemList' )
+      this.m_ItemLists[ logicId ].BindLogic( this )
       this.m_ItemLists[ logicId ].SetLogicId(logicId)
+      this.m_ItemLists[ logicId ].RefreshView()
     }
     return this.m_ItemLists[ logicId ]
   },
   DelItemList(logicId){
 
+  },
+  ShowClickItemLogicView(listItem,item){
+    if(listItem == null || item == null) return
+    let disListIdArr = []
+    let tempNode = listItem
+    while (tempNode != null){
+      let nextId = tempNode.GetNextId()
+      if(nextId == null) break
+      disListIdArr.push(nextId)
+      tempNode = this.GetItemListWithLogicId(nextId)
+    }
+    listItem.SetNextId(null)
+    for(let disId in disListIdArr){
+      let itemList = this.GetItemListWithLogicId(disListIdArr[disId])
+      if(itemList != null){
+        itemList.Destoy()
+      }
+    }
+    let logicId = item.GetLogicId()
+    listItem.SetItemChoice(logicId)
+    let newItemList = this.AddItemList({LogicId:logicId})
+    this.RefreshItemListView()
+  },
+  RefreshItemListView(){
+    for(let logicId in this.m_ItemLists){
+      this.m_ItemLists[logicId].RefreshView()
+    }
   }
 });
