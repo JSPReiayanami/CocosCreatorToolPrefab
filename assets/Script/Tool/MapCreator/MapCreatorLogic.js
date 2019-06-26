@@ -197,14 +197,7 @@ cc.Class({
     if(this.m_ItemLists[ logicId ] == null) {
       let itemList = cc.instantiate(this.m_PrefabItemList)
       this.m_Content.addChild( itemList )
-      this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.NONE
-      this.m_ContentH.stopAllActions()
-      this.m_ContentH.runAction(cc.sequence(
-        cc.delayTime(1/30),
-        cc.callFunc(()=>{
-          this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.CONTAINER
-        })
-      ))
+      this.DealBug()
       this.m_ItemLists[ logicId ] = itemList.getComponent( 'MapCreatorItemList' )
       this.m_ItemLists[ logicId ].BindLogic( this )
       this.m_ItemLists[ logicId ].SetLogicId(logicId)
@@ -241,5 +234,16 @@ cc.Class({
     for(let logicId in this.m_ItemLists){
       this.m_ItemLists[logicId].RefreshView()
     }
+    this.DealBug()
+  },
+  DealBug(){
+    this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.NONE
+    this.m_ContentH.stopAllActions()
+    this.m_ContentH.runAction(cc.sequence(
+      cc.delayTime(1/30),
+      cc.callFunc(()=>{
+        this.m_ContentH.getComponent(cc.Layout).resizeMode = cc.Layout.ResizeMode.CONTAINER
+      })
+    ))
   }
 });
