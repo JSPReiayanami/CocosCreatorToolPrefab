@@ -35,11 +35,13 @@ cc.Class({
     return this.m_LogicId
   },
   SetNextId(nextId) {
+    //if(this.m_LogicId == nextId) return
     this.m_NextId = nextId
   },
   GetNextId() {
     return this.m_NextId
   },
+
   SetItemChoice(logicId){
     for(let itemId in this.m_Items){
       let type = MapCreatorItem.ChoiceType.UnChoice

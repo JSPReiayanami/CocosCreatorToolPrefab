@@ -34,11 +34,12 @@ let MapCreatorItem = cc.Class({
             this.m_LabNextId.string = "Next:"+(data.NextId || 'null')
             this.m_LabInfoId.string = "Id:"+(data.ItemId || 'null')
         }
-
+        let nd = new cc.Node()
+        nd.getChildByName()
         if(this.m_ChoiceType == MapCreatorItem.ChoiceType.Choice){
-            this.node.color = new cc.Color(247,158,0)
+            this.node.getChildByName('Background').color = new cc.Color(247,158,0)
         }else{
-            this.node.color = new cc.Color(255,255,255)
+            this.node.getChildByName('Background').color = new cc.Color(255,255,255)
         }
     },
     BindLogic(logic,itemList){
