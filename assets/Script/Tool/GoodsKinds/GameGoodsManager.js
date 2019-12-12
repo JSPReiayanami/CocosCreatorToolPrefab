@@ -7,12 +7,7 @@ let GameGoodsManager = cc.Class({
   },
 
   // LIFE-CYCLE CALLBACKS:
-  GameState: {
-    Idle: 1,
-    GameIng: 2,
-    GameEnd:3,
-  },
-  Instance: null,
+
   onLoad() {
     this.Private()
     GameGoodsManager.Instance = this
@@ -23,7 +18,6 @@ let GameGoodsManager = cc.Class({
   Private() {
     this.m_GameTime = 0
     this.m_GameState = GameGoodsManager.GameState.Idle
-
   },
 
   start() {
@@ -37,3 +31,10 @@ let GameGoodsManager = cc.Class({
 
   }
 });
+
+GameGoodsManager.GameState =  {
+    Idle: 1,
+    GameIng: 2,
+    GameEnd:3,
+}
+GameGoodsManager.Instance = GameGoodsManager.Instance || null

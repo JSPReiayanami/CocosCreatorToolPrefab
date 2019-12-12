@@ -40,9 +40,6 @@ cc.Class({
             anim.addClip( clip,'Anim1' )
             let animState = anim.play('Anim1');
         })
-
-
-
     }
 
 });
