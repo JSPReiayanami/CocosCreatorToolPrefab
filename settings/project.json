@@ -2,6 +2,10 @@
   "collision-matrix": [
     [
       true
+    ],
+    [
+      false,
+      false
     ]
   ],
   "design-resolution-height": 640,
@@ -9,8 +13,31 @@
   "excluded-modules": [
     "Geom Utils",
     "3D",
-    "3D Primitive"
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default",
+    "Map"
+  ],
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "use-customize-simulator": true,
+  "use-project-simulator-setting": false,
+  "cocos-analytics": {
+    "enable": false,
+    "appID": "13798",
+    "appSecret": "959b3ac0037d0f3c2fdce94f8421a9b2"
+  },
+  "last-module-event-record-time": 1593311900989,
+  "assets-sort-type": "name",
   "facebook": {
     "appID": "",
     "audience": {
@@ -21,19 +48,6 @@
       "enable": false
     }
   },
-  "fit-height": true,
-  "fit-width": false,
-  "group-list": [
-    "default"
-  ],
-  "last-module-event-record-time": 1551855860647,
-  "simulator-orientation": false,
-  "simulator-resolution": {
-    "height": 640,
-    "width": 960
-  },
-  "use-customize-simulator": false,
-  "use-project-simulator-setting": false,
-  "start-scene": "current",
-  "assets-sort-type": "name"
+  "migrate-history": [],
+  "start-scene": "current"
 }
