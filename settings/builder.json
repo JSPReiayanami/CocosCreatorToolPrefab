@@ -9,7 +9,23 @@
     "skipRecord": false
   },
   "encryptJs": true,
-  "excludeScenes": [],
+  "excludeScenes": [
+    "90e95f85-e584-43f9-93da-e41ec4b91d79",
+    "cfdd44c6-51fb-4c44-99a2-14626488d8a9",
+    "a69f5f02-9f1b-4448-af65-cda71dce5b9c",
+    "129b5e4d-0cbc-44e7-bed1-4e945a711624",
+    "d7d14df5-94b0-4dc0-82ce-6cb69e366044",
+    "e9c5d53c-d9c6-4a5f-8f67-97b6b07bcf36",
+    "bf15ce33-ce92-47f5-8b49-56362f1da306",
+    "747235ff-c6a2-4d28-b93c-0131ff9f1af1",
+    "d42846db-787e-4211-8595-02239fc85457",
+    "d3f597e1-66fb-45d0-a79e-c43855af19f5",
+    "e0cb7271-a8bf-443f-b72a-89f2f2755f9d",
+    "b96bb10a-5d39-440c-940f-fdeb2fd5450a",
+    "4c7ce620-0264-42b3-9810-4473af196df6",
+    "2d2f792f-a40c-49bb-a189-ed176a246e49",
+    "5c977728-154d-489f-8629-33191739ffae"
+  ],
   "fb-instant-games": {},
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -29,7 +45,7 @@
     "orientation": "portrait",
     "zip": false
   },
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "startScene": "0c512dc7-8387-4186-9c61-65164bd57a39",
   "title": "hello_world",
   "webOrientation": "auto",
   "wechatgame": {

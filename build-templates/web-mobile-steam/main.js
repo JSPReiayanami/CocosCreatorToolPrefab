@@ -198,4 +198,4 @@ if (window.jsb) {
     cc.macro.CLEANUP_IMAGE_CACHE = true;
     window.boot();
 }
-require('Sdk/SdkSteam.js');
+require('./Sdk/SdkSteam.js');

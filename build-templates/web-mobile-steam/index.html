@@ -53,17 +53,18 @@
 <script src="main.js" charset="utf-8"></script>
 
 <script type="text/javascript">
+(function () {
   // 选择上传文件的回调信息
   function handleFiles(){
 
-    //var oFile = document.getElementById('fileInput').files[0];
+    var oFile = document.getElementById('file').files[0];
     if(window.HaveInputFile){
-      window.HaveInputFile(document.getElementById('fileInput').files)
+      window.HaveInputFile(document.getElementById('file').files)
     }
 
-    //console.log("getElementById",oFile);
-
-    //读取文件
+    // console.log("getElementById",oFile);
+    //
+    // //读取文件
     // var reader = new FileReader();
     // reader.onload = function(e){
     //   var data = e.target.result;
@@ -73,10 +74,7 @@
     // }
     // // 以字符串的形式读取文件:
     // reader.readAsText(oFile);
-    // reader.readAsArrayBuffer(oFile);
   }
-(function () {
-
 
     // open web debugger console
     if (typeof VConsole !== 'undefined') {

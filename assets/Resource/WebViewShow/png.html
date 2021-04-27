@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>html5 image to base64</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        window.onload = function () {
+            // 抓取上传图片，转换代码结果，显示图片的dom
+            var img_upload = document.getElementById("img_upload");
+            var base64_code = document.getElementById("base64_code");
+            var img_area = document.getElementById("img_area");
+            // 添加功能出发监听事件
+            img_upload.addEventListener('change', readFile, false);
+        }
+        function readFile() {
+            var file = this.files[0];
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = function () {
+                base64_code.innerHTML = this.result;
+                img_area.innerHTML = '<div>图片img标签展示：</div><img src="' + this.result + '" alt=""/>';
+            }
+        }
+    </script>
+    <input type="file" id="img_upload" />
+    <textarea id="base64_code" rows="30" cols="360"></textarea>
+    <p id="img_area"></p>
+</body>
+
+</html>
