@@ -1,0 +1,1049 @@
+spine_tarot_ren_0.webp
+size: 1000, 3563
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spine_tarot_ren=ball
+  rotate: false
+  xy: 812, 498
+  size: 185, 185
+  orig: 185, 185
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=ball_ying
+  rotate: false
+  xy: 881, 2705
+  size: 92, 25
+  orig: 92, 25
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=ballzhongxin
+  rotate: false
+  xy: 881, 2732
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=body
+  rotate: false
+  xy: 586, 811
+  size: 200, 420
+  orig: 200, 420
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=di
+  rotate: false
+  xy: 520, 3157
+  size: 129, 96
+  orig: 129, 96
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=dian
+  rotate: false
+  xy: 812, 464
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu00
+  rotate: false
+  xy: 574, 1969
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu01
+  rotate: false
+  xy: 382, 2077
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu02
+  rotate: false
+  xy: 182, 2124
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu03
+  rotate: false
+  xy: 1, 2235
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu04
+  rotate: false
+  xy: 750, 2021
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu05
+  rotate: false
+  xy: 558, 2122
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu06
+  rotate: false
+  xy: 358, 2230
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu07
+  rotate: false
+  xy: 177, 2277
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu08
+  rotate: false
+  xy: 1, 2388
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu09
+  rotate: false
+  xy: 734, 2174
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu10
+  rotate: false
+  xy: 534, 2275
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu11
+  rotate: false
+  xy: 353, 2383
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu12
+  rotate: false
+  xy: 177, 2430
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu13
+  rotate: false
+  xy: 1, 2541
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu14
+  rotate: false
+  xy: 710, 2327
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu15
+  rotate: false
+  xy: 529, 2428
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu16
+  rotate: false
+  xy: 353, 2536
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu17
+  rotate: false
+  xy: 177, 2583
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu18
+  rotate: false
+  xy: 1, 2694
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu19
+  rotate: false
+  xy: 705, 2480
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu20
+  rotate: false
+  xy: 529, 2581
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu21
+  rotate: false
+  xy: 353, 2689
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu22
+  rotate: false
+  xy: 177, 2736
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu23
+  rotate: false
+  xy: 1, 2847
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=effqiu24
+  rotate: false
+  xy: 705, 2633
+  size: 174, 151
+  orig: 174, 151
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=er_huanl
+  rotate: false
+  xy: 468, 566
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=er_huanr
+  rotate: false
+  xy: 468, 609
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=er_l
+  rotate: false
+  xy: 468, 648
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=er_r
+  rotate: false
+  xy: 979, 869
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_bail
+  rotate: false
+  xy: 433, 760
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_bair
+  rotate: false
+  xy: 433, 783
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_dainr
+  rotate: false
+  xy: 987, 241
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_dianl
+  rotate: false
+  xy: 987, 241
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_zhul
+  rotate: false
+  xy: 969, 354
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=eyeball_zhur
+  rotate: false
+  xy: 979, 914
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=face_down
+  rotate: false
+  xy: 875, 2824
+  size: 81, 46
+  orig: 81, 46
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=face_up
+  rotate: false
+  xy: 468, 693
+  size: 116, 154
+  orig: 116, 154
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair1
+  rotate: false
+  xy: 594, 656
+  size: 209, 153
+  orig: 209, 153
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair2
+  rotate: false
+  xy: 886, 2470
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair3
+  rotate: false
+  xy: 320, 3312
+  size: 128, 154
+  orig: 128, 154
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair4
+  rotate: false
+  xy: 881, 2559
+  size: 108, 92
+  orig: 108, 92
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair5
+  rotate: false
+  xy: 910, 2174
+  size: 89, 176
+  orig: 89, 176
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair6
+  rotate: false
+  xy: 875, 2901
+  size: 77, 84
+  orig: 77, 84
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=hair_black
+  rotate: false
+  xy: 252, 399
+  size: 242, 165
+  orig: 242, 165
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=jian_l
+  rotate: false
+  xy: 192, 1985
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=jian_r
+  rotate: false
+  xy: 252, 566
+  size: 214, 129
+  orig: 214, 129
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=jie_maol
+  rotate: false
+  xy: 545, 659
+  size: 43, 15
+  orig: 43, 15
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=jie_maor
+  rotate: false
+  xy: 545, 676
+  size: 43, 15
+  orig: 43, 15
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=jiemao_up
+  rotate: false
+  xy: 490, 638
+  size: 102, 19
+  orig: 102, 19
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kou_qiang
+  rotate: false
+  xy: 926, 354
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang
+  rotate: false
+  xy: 422, 1044
+  size: 153, 111
+  orig: 153, 111
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang00
+  rotate: false
+  xy: 529, 2734
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang01
+  rotate: false
+  xy: 353, 2842
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang02
+  rotate: false
+  xy: 177, 2889
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang03
+  rotate: false
+  xy: 1, 3000
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang04
+  rotate: false
+  xy: 702, 2786
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang05
+  rotate: false
+  xy: 526, 2875
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang06
+  rotate: false
+  xy: 350, 2983
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang07
+  rotate: false
+  xy: 174, 3030
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang08
+  rotate: false
+  xy: 1, 3141
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang09
+  rotate: false
+  xy: 699, 2927
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang10
+  rotate: false
+  xy: 523, 3016
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang11
+  rotate: false
+  xy: 347, 3124
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang12
+  rotate: false
+  xy: 174, 3171
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang13
+  rotate: false
+  xy: 1, 3282
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang14
+  rotate: false
+  xy: 1, 3423
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang15
+  rotate: false
+  xy: 450, 3265
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang16
+  rotate: false
+  xy: 466, 3406
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang17
+  rotate: false
+  xy: 623, 3255
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang18
+  rotate: false
+  xy: 639, 3396
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuang19
+  rotate: false
+  xy: 812, 3193
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=kuanggaoguang00
+  rotate: false
+  xy: 812, 3334
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=lian_ying_etou
+  rotate: false
+  xy: 496, 558
+  size: 93, 78
+  orig: 93, 78
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=lian_ying_wei
+  rotate: false
+  xy: 881, 2653
+  size: 106, 50
+  orig: 106, 50
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=lian_ying_xiaba
+  rotate: false
+  xy: 848, 464
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=mei_l
+  rotate: false
+  xy: 192, 832
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=mei_r
+  rotate: false
+  xy: 192, 853
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=neck_wen
+  rotate: false
+  xy: 496, 399
+  size: 98, 74
+  orig: 98, 74
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=pi_feng
+  rotate: false
+  xy: 1, 1
+  size: 593, 396
+  orig: 593, 396
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu00
+  rotate: false
+  xy: 805, 685
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu01
+  rotate: false
+  xy: 788, 869
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu02
+  rotate: false
+  xy: 788, 1053
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu03
+  rotate: false
+  xy: 1, 582
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu04
+  rotate: false
+  xy: 242, 697
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu05
+  rotate: false
+  xy: 1, 766
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu06
+  rotate: false
+  xy: 1, 950
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu07
+  rotate: false
+  xy: 231, 881
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu08
+  rotate: false
+  xy: 192, 1065
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu09
+  rotate: false
+  xy: 1, 1134
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu10
+  rotate: false
+  xy: 383, 1157
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu11
+  rotate: false
+  xy: 192, 1249
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu12
+  rotate: false
+  xy: 1, 1318
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu13
+  rotate: false
+  xy: 574, 1233
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu14
+  rotate: false
+  xy: 383, 1341
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu15
+  rotate: false
+  xy: 192, 1433
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu16
+  rotate: false
+  xy: 1, 1502
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu17
+  rotate: false
+  xy: 765, 1237
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu18
+  rotate: false
+  xy: 574, 1417
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu19
+  rotate: false
+  xy: 383, 1525
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu20
+  rotate: false
+  xy: 192, 1617
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu21
+  rotate: false
+  xy: 1, 1686
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu22
+  rotate: false
+  xy: 765, 1421
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu23
+  rotate: false
+  xy: 574, 1601
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu24
+  rotate: false
+  xy: 383, 1709
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu25
+  rotate: false
+  xy: 192, 1801
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu26
+  rotate: false
+  xy: 1, 1870
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu27
+  rotate: false
+  xy: 765, 1605
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu28
+  rotate: false
+  xy: 574, 1785
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=qiu29
+  rotate: false
+  xy: 383, 1893
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=tooth
+  rotate: false
+  xy: 433, 697
+  size: 33, 12
+  orig: 33, 12
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=tou_shi
+  rotate: false
+  xy: 496, 475
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=xin2
+  rotate: false
+  xy: 596, 304
+  size: 280, 158
+  orig: 280, 158
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=xiong_zhen
+  rotate: false
+  xy: 926, 285
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=xuan
+  rotate: false
+  xy: 1, 2054
+  size: 179, 179
+  orig: 179, 179
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=yanpil
+  rotate: false
+  xy: 192, 792
+  size: 42, 18
+  orig: 42, 18
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=yanpir
+  rotate: false
+  xy: 192, 812
+  size: 42, 18
+  orig: 42, 18
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=yingzi
+  rotate: false
+  xy: 651, 3157
+  size: 129, 96
+  orig: 129, 96
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_bi
+  rotate: false
+  xy: 174, 3312
+  size: 144, 167
+  orig: 144, 167
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_hand
+  rotate: false
+  xy: 931, 84
+  size: 63, 155
+  orig: 63, 155
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_huan
+  rotate: false
+  xy: 192, 626
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_zhi1
+  rotate: false
+  xy: 488, 659
+  size: 55, 30
+  orig: 55, 30
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_zhi2
+  rotate: false
+  xy: 878, 304
+  size: 46, 70
+  orig: 46, 70
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you1_zhi3
+  rotate: false
+  xy: 192, 874
+  size: 37, 79
+  orig: 37, 79
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you2_bi
+  rotate: false
+  xy: 596, 158
+  size: 328, 144
+  orig: 328, 144
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you2_bi_ying
+  rotate: false
+  xy: 324, 3468
+  size: 140, 87
+  orig: 140, 87
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you2_huan
+  rotate: false
+  xy: 192, 685
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you2_zhi
+  rotate: false
+  xy: 875, 2872
+  size: 78, 27
+  orig: 78, 27
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you_up_bi
+  rotate: false
+  xy: 1, 399
+  size: 249, 181
+  orig: 249, 181
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you_up_bi_tao
+  rotate: false
+  xy: 878, 376
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=you_up_wen
+  rotate: false
+  xy: 931, 1
+  size: 68, 81
+  orig: 68, 81
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_bi
+  rotate: false
+  xy: 433, 849
+  size: 148, 193
+  orig: 148, 193
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_bi_up
+  rotate: false
+  xy: 765, 1789
+  size: 174, 230
+  orig: 174, 230
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_hand
+  rotate: false
+  xy: 174, 3481
+  size: 148, 81
+  orig: 148, 81
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_hand1
+  rotate: false
+  xy: 696, 3068
+  size: 147, 80
+  orig: 147, 80
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_huan
+  rotate: false
+  xy: 192, 582
+  size: 57, 42
+  orig: 57, 42
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo1_mu
+  rotate: false
+  xy: 872, 2987
+  size: 74, 34
+  orig: 74, 34
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi
+  rotate: false
+  xy: 596, 1
+  size: 333, 155
+  orig: 333, 155
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi_huan
+  rotate: false
+  xy: 192, 733
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi_huanwen
+  rotate: false
+  xy: 433, 711
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi_up
+  rotate: false
+  xy: 596, 464
+  size: 214, 190
+  orig: 214, 190
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi_up_wen
+  rotate: false
+  xy: 886, 2352
+  size: 113, 116
+  orig: 113, 116
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_bi_ying
+  rotate: false
+  xy: 845, 3068
+  size: 134, 123
+  orig: 134, 123
+  offset: 0, 0
+  index: -1
+spine_tarot_ren=zuo2_zhi
+  rotate: false
+  xy: 926, 241
+  size: 59, 42
+  orig: 59, 42
+  offset: 0, 0
+  index: -1
+
