@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "7c3bd0d0-6c52-4675-8886-3a06e5456e70",
+  "importer": "texture",
   "type": "raw",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
